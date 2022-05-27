@@ -1,7 +1,7 @@
 import React from 'react';
 import { Router } from '@reach/router';
 
-import Recipes from './pages/Recipes';
+import Repositories from './pages/Repositories';
 import ThemeProvider from './components/ThemeProvider';
 import Body from './layout/Body';
 
@@ -9,7 +9,7 @@ const App = () => (
   <ThemeProvider>
     <Body>
       <Router>
-        <Recipes path="/" />
+        <Repositories path="/" />
       </Router>
     </Body>
   </ThemeProvider>
